@@ -1,0 +1,39 @@
+/* slider */
+.banner-slide {
+    background-color: var(--white);
+}
+
+.banner-shop {
+    align-items: center;
+    max-width  : 1200px;
+    margin     :0 auto; 
+    padding-top: 10px;
+}
+
+.full-home-banners {
+    display              : grid;
+    grid-template-columns: 6fr 3fr;
+    grid-template-areas  : "b c";
+    grid-gap             : 5px;
+}
+
+.full-home-banners__left-wrapper {
+    grid-area: b;
+}
+
+.full-home-banners__right-wrapper {
+    grid-area: c;
+}
+/* products showw */
+.products-title_show ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap:5px;
+}
+/* footer */
+.footer-shop{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 15px;
+
+}

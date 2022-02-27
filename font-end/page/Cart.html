@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <link rel="icon" href="https://banner2.cleanpng.com/20180329/eiw/kisspng-shopee-indonesia-adidas-logo-gadget-affair-pte-ltd-monogram-5abc68d1284162.4987079015222970411649.jpg">
+    <link rel="stylesheet" href="./css/Index.css">
+    <link rel="stylesheet" href="./css/Gird.css">
+    <link rel="stylesheet" href="./css/Reponsive.css">
+    <link rel="stylesheet" href="./css/Animation.css">
+    <link rel="stylesheet" href="./css/Cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <div class="shopee__shop">
+        <!-- header pc -->
+        <div class="header">
+            <!-- header pc -->
+            <div class="header__main-navbar-wrapper">
+                <div class="flex">
+                    <ul>
+                        <li><a href="">kênh người bán</a></li>
+                        <li><a href="">tải ứng dụng</a>
+                            <img src="http://4.bp.blogspot.com/-Nzb2jX4c0iU/VIcZCT15vPI/AAAAAAAAGeE/5ijVMwGf5ak/s1600/QRCodeGeneratorImage.png" alt="">
+                        </li>
+                        <li>
+                            <span>Kết nối</span> <a href=""><i class="fab
+                                        fa-facebook"></i></a><a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar__spacer"></div>
+                <div class="navbar__links">
+                    <ul>
+                        <li><a href=""><i class="far fa-bell"></i> thông báo</a></li>
+                        <li><a href=""><i class="far fa-question-circle"></i>
+                                hỗ trợ</a></li>
+                        <li><a><i class="fas fa-globe"></i> tiếng
+                                việt <i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="">việt nam</a></li>
+                                <li><a href="">english</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="login-logout">
+                        <a href="">đăng ký</a> <a href="">đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- header mobile -->
+        <div class="header__mb">
+            <div class="header__mb-logo-menu">
+                <div class="mb__logo-shopee">
+                    <a href=""><img src="https://cf.shopee.vn/file/d734f6291f072bb855371432da462d65" alt=""></a>
+                </div>
+                <div class="header__mb-search">
+                    <input type="text" placeholder="Đón chờ ShopeePay Day -
+                            Giảm 50%">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="mb-menu">
+                    <div class="mb-cart">
+                        <i class="fas fa-shopping-cart"><span>43</span> </i>
+                    </div>
+                    <div class="mb-user" id="button__mb">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="body-user" id="mb">
+                        <div class="show-user" id="display__mb">
+                            <div class="user"> <i class="fas fa-user"></i> tài khoản của tôi</div>
+                            <div class="cart-my"><i class="fas
+                                        fa-luggage-cart"></i> đơn hàng của tôi</div>
+                            <div class="admin_user"><i class="fas
+                                        fa-user-cog"></i> quản trị</div>
+                            <div class="logout"><i class="fas
+                                        fa-sign-out-alt"></i> đăng xuất</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- main -->
+        <div class="cart-page-header-wrapper">
+            <div class="wapper">
+                <div class="cart-page-header">
+                    <div class="cart-page-logo">
+                        <a href="Index.html">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/2560px-Shopee.svg.png" alt="">
+                        </a>
+                        <span>Giỏ Hàng</span>
+                    </div>
+                    <div class="cart-page-search">
+                        <input type="text" name="" id="" placeholder="Tìm kiếm .....">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-page-products">
+                <div class="cart-page-pr_header">
+                    <div class="pr-check-box">
+                        <input type="checkbox">
+                    </div>
+                    <div class="coll-1">sản phẩm</div>
+                    <div class="coll-2">đơn giá</div>
+                    <div class="coll-3">số lượng</div>
+                    <div class="coll-4">số tiền</div>
+                    <div class="coll-5">thao tác</div>
+                </div>
+                <div class="cart-page_pr">
+                    <div class="cart-page_pr-owner"><i class="fas fa-house-user"></i>yêu bản thân nhiều lắm</div>
+
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                </div>
+                <div class="cart-page_pr">
+                    <div class="cart-page_pr-owner"><i class="fas fa-house-user"></i>yêu bản thân nhiều lắm</div>
+
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                </div>
+                <div class="cart-page_pr">
+                    <div class="cart-page_pr-owner"><i class="fas fa-house-user"></i>yêu bản thân nhiều lắm</div>
+
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                </div>
+                <div class="cart-page_pr">
+                    <div class="cart-page_pr-owner"><i class="fas fa-house-user"></i>yêu bản thân nhiều lắm</div>
+
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                </div>
+                <div class="cart-page_pr">
+                    <div class="cart-page_pr-owner"><i class="fas fa-house-user"></i>yêu bản thân nhiều lắm</div>
+
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                </div>
+                <div class="cart-page_pr">
+                    <div class="cart-page_pr-owner"><i class="fas fa-house-user"></i>yêu bản thân nhiều lắm</div>
+
+                    <div class="cart-page_pr-show">
+                        <div class="checkbox">
+                            <label for="check" id="active">
+                            </label>
+                            <input type="checkbox" name="" id="check">
+                        </div>
+                        <div class="pr-info">
+                            <a href="">
+                                <div class="pr-image">
+                                    <img src="https://cf.shopee.vn/file/0f3161ccb79497e6706b2c5d7ab1280d" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <span>Áo Khoác Kaki Hộp Nam Nữ Hình Thật Có TÚI TRONG Hàng Bao Đẹp, Bao Chất FORM
+                                    80KG đấ asdasdas ádasd</span>
+                            </a>
+
+                            <div class="pr-classify">
+                                <div class="classify">
+                                    <span>phân loại <i class="fas fa-sort-up"></i></span>
+                                    <br>
+                                    <div class="pr-size">đen trắng xl,l asdasd hạnh asdasd ád asdasa asdasd </div>
+                                </div>
+
+                                <div class="pr-filter">
+                                    <div class="pr-type">
+                                        <h4> tên rèm</h4>
+                                        <div class="type">
+                                            <ul>
+                                                <li>
+                                                    <a>xanh xương rồng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>hồng thỏ trắng</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>Hoa trắng dâu tây</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh caro</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>xanh bơ</a>
+                                                    <div class="pr-check-type">
+                                                        <div class="pr-check">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-size">
+                                        <h4>kích thước</h4>
+                                        <div class="size">
+                                            <ul>
+                                                <li>
+                                                    <a>0.9mx1m</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1mx1m2</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a>1m2x1m5</a>
+                                                    <div class="pr-check-size">
+                                                        <div class="pr-check_z">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pr-button">
+                                        <button class="back">Trở lại</button>
+                                        <button class="confirm">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pr-price_sale">
+                            <del>₫543.654</del> ₫210.123
+                        </div>
+                        <div class="pr-quantity">
+                            <button class="pr-prev">-</button>
+                            <input type="text" value="1" class="input">
+                            <button class="pr-next">+</button>
+                        </div>
+                        <div class="pr-price">₫654.322</div>
+                        <div class="pr-operation"><i class="far fa-trash-alt"></i></div>
+                    </div>
+                </div>
+                <div class="pr-buying">
+                    <div class="pr-total">
+                        <div class="total">
+                            <span>tổng thanh toán</span> <span>(0 sản phẩm)</span> :
+                            <span>₫0</span>
+                        </div>
+                        <div class="buying"><button>mua ngay</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-shop">
+                <div class="customer_care">
+                    <h4>chăm sóc khách hàng</h4>
+                    <ul>
+                        <li><a href="">trung tâm trợ giúp</a></li>
+                        <li><a href="">Shopee Blog</a></li>
+                        <li><a href="">Hướng Dẫn Mua Hàng</a></li>
+                        <li><a href="">Hướng Dẫn Bán Hàng</a></li>
+                        <li><a href="">Chăm Sóc Khách Hàng</a></li>
+                    </ul>
+                </div>
+                <div class="shopee-item">
+                    <h4>về shopee</h4>
+                    <ul>
+                        <li><a href="">Giới Thiệu Về Shopee Việt Nam</a></li>
+                        <li><a href="">Tuyển Dụng</a></li>
+                        <li><a href="">Chính Sách Bảo Mật</a></li>
+                    </ul>
+                </div>
+                <div class="payment">
+                    <h4>thanh toán</h4>
+                    <img src="http://hstatic.net/726/1000031726/10/2016/5-20/thanh-toan.jpg" alt="">
+                    <h4>đơn vị</h4>
+                    <img src="https://ntlogistics.vn/tin-tuc/wp-content/uploads/2020/06/cac-cong-ty-chuyen-phat-nhanh.png" alt="">
+                </div>
+                <div class="follow">
+                    <h4>theo dõi chúng tôi trên</h4>
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i>
+                                Facebook</a></li>
+                        <li><a href=""><i class="fab fa-instagram-square"></i>
+                                Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="download-shope">
+                    <h4>tải ứng dụng shopee ngay thôi</h4>
+                    <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/d91264e165ed6facc6178994d5afae79.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            © 2015 - Bản quyền thuộc về Công ty TNHH Shopee
+        </div>
+    </div>
+    <script src="./js/Cart.js"></script>
+</body>
+
+</html>

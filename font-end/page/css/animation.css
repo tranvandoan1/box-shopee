@@ -1,23 +1,120 @@
 @keyframes show_cart {
     from {
-        opacity  : 0;
+        opacity: 0;
         transform: translateY(45%);
     }
-
     to {
         transform: translateY(0%);
-        opacity  : 1;
+        opacity: 1;
     }
 }
 
 @keyframes slider {
     from {
-        opacity  : 0;
-        transform: scale(.8, .8) ;
+        opacity: 0;
+        transform: scale(.8, .8);
     }
-
     to {
-        opacity  : 1;
+        opacity: 1;
         transform: scale(1, 1);
+    }
+}
+
+@keyframes prFilter {
+    from {
+        opacity: 0;
+        transform: scale(.8, .8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes sp1 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 240px;
+    }
+}
+
+@keyframes sp2 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 400px;
+    }
+}
+
+@keyframes sp3 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 200px;
+    }
+}
+
+@keyframes sp4 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 230px;
+    }
+}
+
+@keyframes sp5 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 200px;
+    }
+}
+
+@keyframes sp6 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 160px;
+    }
+}
+
+@keyframes sp7 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 200px;
+    }
+}
+
+@keyframes sp1 {
+    from {
+        opacity: 0;
+        height: 0px;
+    }
+    to {
+        opacity: 1;
+        height: 240px;
     }
 }

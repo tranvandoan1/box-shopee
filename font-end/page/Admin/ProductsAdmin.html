@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="admin">
+        <div class="admin-navbar">
+            <div class="navbar">
+                <div class="info-admin">
+                    <div class="info-admin-img">
+                        <img src="https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>tranvandoan2005</h3>
+                        <em>Quản trị viên</em>
+                    </div>
+                </div>
+                <div class="navbar-title">
+                    <ul>
+                        <li><a href=""><i class="far fa-star"></i> Tổng quát</a></li>
+                        <li><a href=""><i class="fas fa-calendar-alt"></i> Categoris Shopee</a></li>
+                        <li><a href=""><i class="fab fa-product-hunt"></i> Products</a></li>
+                        <li><a href=""><i class="fab fa-slideshare"></i> Slides</a></li>
+                        <li><a href=""><i class="far fa-user"></i> Users</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button id="off-navbar"><i class="fas fa-angle-double-left"></i></button>
+            <button id="on-navbar"><i class="fas fa-angle-double-right"></i></button>
+        </div>
+
+        <div class="admin-list">
+            <div class="admin-categoris">
+                <div class="admin-cate-header">
+                    <div class="left">
+                        <h3>Danh mục của shopee</h3>
+                    </div>
+                    <div class="right">
+                        <div class="search">
+                            <input type="text" placeholder="Tìm kiếm ...">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <button><a href=""> Thêm danh mục</a></button>
+                    </div>
+
+                </div>
+                <div class="admin-categoris_list">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Ảnh đại diện</th>
+                                <th>Tên</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png" alt=""></td>
+                                <td><span>thể thao đường phố</span></td>
+                                <td><i class="fas fa-tools"></i> <i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png" alt=""></td>
+                                <td><span>thể thao đường phố</span></td>
+                                <td><i class="fas fa-tools"></i> <i class="far fa-trash-alt"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- thêm danh mục -->
+            <div class="add-categoris">
+                <div class="add-categoris-header">
+                    <h3>Thêm sản phẩm</h3>
+                </div>
+                <div class="add-product">
+                    <div class="box-1">
+                        <div class="add-name">
+                            <span>Tên sản phẩm</span>
+                            <input type="text" name="" placeholder="Tên sản phẩm" value="">
+                        </div>
+                        <div class="add-categori">
+                            <span>Danh mục</span>
+                            <select name="" id="">
+                                <option value="">Quần áo trẻ em</option>
+                                <option value="">Quần áo trẻ em</option>
+                                <option value="">Quần áo trẻ em</option>
+                            </select>
+                        </div>
+                        <div class="add-avatar">
+                            <span>Ảnh đại diện</span>
+                            <input type="file" name="" id="">
+                        </div>
+                        <div class="add-img1">
+                            <span>Ảnh 1</span>
+                            <input type="file" name="" id="">
+                        </div>
+                        <div class="add-img2">
+                            <span>Ảnh 2</span>
+                            <input type="file" name="" id="">
+                        </div>
+                        <div class="add-img3">
+                            <span>Ảnh 3</span>
+                            <input type="file" name="" id="">
+                        </div>
+                        <div class="add-img4">
+                            <span>Ảnh 4</span>
+                            <input type="file" name="" id="">
+                        </div>
+                        <div class="add-img5">
+                            <span>Ảnh 5</span>
+                            <input type="file" name="" id="">
+                        </div>
+                        <div class="add-sale">
+                            <span>Giá sale</span>
+                            <input type="text" placeholder="Giá sale" name="" id="">
+                        </div>
+
+                        <div class="add-brand">
+                            <span>Thương hiệu</span>
+                            <input type="text" name="" placeholder="Thương hiệu" id="">
+                        </div>
+                        <div class="add-origin">
+                            <span>Xuất xứ</span>
+                            <input type="text" placeholder="Xuất xứ" name="" id="">
+                        </div>
+                        <div class="add-warehouse">
+                            <span>Kho hàng</span>
+                            <input type="text" name="" placeholder="Kho hàng" id="">
+                        </div>
+                        <div class="add-sent_from">
+                            <span>Gửi từ</span>
+                            <input type="text" name="" placeholder="Gửi từ" id="">
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="add-properties">
+                            <div class="properties-name">
+                                <span>Tên thuộc tính</span>
+                                <button id="but">Add</button>
+                                <button id="but1">click</button>
+                            </div>
+                            <div class="properties-input" id="ko">
+                                <div class="properties">
+                                    <input type="text" name="" placeholder="Tên nhóm phân loại 1" id="name-properties1">
+                                    <input type="text" name="" placeholder="Phân loại hàng 1" id="name-properties1">
+                                    <div class="type-name">
+                                        <div class="type-name-1">
+                                            <input type="text" placeholder="Tên kiểu loại 1" class="name-type1">
+                                            <input type="text" placeholder="Số lượng" class="type-quantity1">
+                                            <input type="text" placeholder="Gía" class="type-price1">
+                                        </div>
+                                        <div class="type-name-2">
+                                            <input type="text" placeholder="Tên kiểu loại 2" class="name-type2">
+                                            <input type="text" placeholder="Số lượng" class="type-quantity2">
+                                            <input type="text" placeholder="Gía" class="type-price2">
+                                        </div>
+                                        <div class="type-name-3">
+                                            <input type="text" placeholder="Tên kiểu loại 3" class="name-type3">
+                                            <input type="text" placeholder="Số lượng" class="type-quantity3">
+                                            <input type="text" placeholder="Gía" class="type-price3">
+                                        </div>
+                                        <div class="type-name-4">
+                                            <input type="text" placeholder="Tên kiểu loại 4" class="name-type4">
+                                            <input type="text" placeholder="Số lượng" class="type-quantity4">
+                                            <input type="text" placeholder="Gía" class="type-price4">
+                                        </div>
+                                        <div class="type-name-5">
+                                            <input type="text" placeholder="Tên kiểu loại 5" class="name-type5">
+                                            <input type="text" placeholder="Số lượng" class="type-quantity5">
+                                            <input type="text" placeholder="Gía" class="type-price5">
+                                        </div>
+                                        <div class="type-name-6">
+                                            <input type="text" placeholder="Tên kiểu loại 6" class="name-type6">
+                                            <input type="text" placeholder="Số lượng" class="type-quantity6">
+                                            <input type="text" placeholder="Gía" class="type-price6">
+                                        </div>
+                                    </div>
+                                    <button onclick="Remove(this)">xóa</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xmte">
+                            <div class="pl">
+                                <h4>Tên</h4> : <span>Hồng</span>
+                            </div>
+                            <div class="tpl">
+                                <h4>Thể loại</h4> : <span>hi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sửa sp -->
+            <!-- 
+            <div class="update-cate">
+                <div class="cate-box">
+                    <div class="update-categoris-header">
+                        <h3>Thêm danh mục</h3>
+                    </div>
+                    <div class="update-add">
+                        <div class="update-name">
+                            <span>Tên danh mục </span>
+                            <div class="update-name_input">
+                                <input type="text" placeholder="Thêm danh mục ...">
+                            </div>
+                        </div>
+                        <div class="update-photo">
+                            <span>Ảnh danh mục</span>
+                            <div class="update-photo_input"></div>
+                            <label for="update-photo">
+                            <i class="far fa-images"></i>
+                           
+                        </label>
+                            <span class="update-photo-list">
+                            <img src="" alt="">
+                        </span>
+                            <input type="file" name="" id="update-photo">
+                        </div>
+                        <button>Thêm </button>
+                        <button> <a href="">Quay lại</a></button>
+                    </div>
+                </div>
+
+            </div> -->
+
+            <!-- phân trang -->
+            <!-- <div class="paging-products">
+                <div class="paging-prev"><i class="fas fa-angle-left"></i></div>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                </ul>
+                <div class="paging-next"><i class="fas fa-angle-right"></i></div>
+            </div> -->
+
+
+            <div class="slide-admin">
+                <div class="slide-header">
+                    <h3>Slide</h3>
+                    <div class="create-slide"><i class="fas fa-plus"></i> Thêm ảnh</div>
+                </div>
+                <div class="slide-list">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Ảnh</th>
+                                <th>Trạng thái</th>
+                                <th>Số thứ tự hiện slide</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="https://cdn.vietnambiz.vn/171464876016439296/2020/11/9/2-16049186855791832004534.jpg" alt=""></td>
+                                <td><button>Off</button><button>On</button></td>
+                                <td><input type="text" name="" value="1" id=""></td>
+                                <td><i class="fas fa-tools"></i><i class="fas fa-trash-alt"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- <div class="create-photo">
+                <form action="">
+                    <div class="create-header">Thêm ảnh</div>
+                    <div class="form">
+                        <span>Chọn ảnh</span>
+                        <label for="create-image" id="hi">
+                                <i class="fas fa-images"></i>
+                            </label>
+
+                        <input type="file" id="create-image">
+                    </div>
+                    <div class="list-photo"></div>
+
+                    <button type="submit">Thêm</button>
+
+                </form>
+            </div> -->
+            <div class="update-photo">
+                <form action="">
+                    <div class="update-header">Sửa ảnh</div>
+                    <div class="form-update">
+                        <span>Chọn ảnh</span>
+                        <label for="update-image">
+                                <i class="fas fa-images"></i>
+                            </label>
+
+                        <input type="file" style="background-color: lawngreen; color: #fff;" id="update-image">
+                    </div>
+                    <div class="photo">
+                        <span class="update-list-photoo"><img src="https://i.pinimg.com/originals/ce/b7/3f/ceb73fc379071d432a7ccd7a2915261e.jpg" alt=""></span> ==> <span class="update-photoo"><img src="https://i.ytimg.com/vi/us-bu9p74qQ/maxresdefault.jpg" alt=""></span>
+                    </div>
+
+                    <button type="submit">Sửa</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        const fileUpload = document.querySelector("#create-image");
+        fileUpload.addEventListener("change", function() {
+            if (fileUpload.files[0] == undefined || fileUpload.files[0] == "") {
+                document.querySelector(".list-photo").innerHTML = ``
+                document.querySelector(".list-photo").style.width = "0px"
+                document.querySelector(".list-photo").style.height = "0px"
+            } else {
+                document.querySelector(".list-photo").style.width = "450px"
+                document.querySelector(".list-photo").style.height = "200px"
+                document.querySelector(".list-photo").innerHTML = `<img  src="${URL.createObjectURL(event.target.files[0])}" alt="">`
+
+            }
+        })
+    </script>
+    <script>
+        const add = document.querySelector("#but")
+        const but1 = document.querySelector("#but1")
+
+        const properties = document.querySelector(".properties")
+        const propertiesBox = document.querySelector(".properties-input")
+
+        function addd() {
+            add.addEventListener("click", function() {
+                var row = propertiesBox.cloneNode(true);
+                propertiesBox.appendChild(row)
+                Remove(e)
+            })
+        }
+
+        addd()
+
+        function Remove(e) {
+            var row = e.parentElement;
+            propertiesBox.removeChild(row);
+            addd()
+        }
+
+        const off_navbar = document.querySelector("#off-navbar")
+        const on_navbar = document.querySelector("#on-navbar")
+        const admin_navbar = document.querySelector(".admin-navbar")
+        const admin_list = document.querySelector(".admin-list")
+        const navbar = document.querySelector(".navbar")
+        off_navbar.addEventListener("click", function() {
+            admin_navbar.style.width = "3%"
+            admin_list.style.width = "97%"
+            navbar.style.display = "none"
+            on_navbar.style.display = "block"
+            off_navbar.style.display = "none"
+
+        })
+        on_navbar.addEventListener("click", function() {
+            admin_navbar.style.width = "20%"
+            admin_list.style.width = "80%"
+            navbar.style.display = "block"
+            on_navbar.style.display = "none"
+            off_navbar.style.display = "block"
+
+        })
+        const searchIcon = document.querySelector(".search>i")
+        const searchInput = document.querySelector(".search>input")
+        var item = 0
+        searchIcon.addEventListener("click", function() {
+            item++
+            if (item === 1) {
+
+                searchInput.classList.add("active-input")
+            } else if (item === 2) {
+                item = 0
+                searchInput.classList.remove("active-input")
+
+            }
+        })
+    </script>
+
+
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="admin">
+        <div class="admin-navbar">
+            <div class="navbar">
+                <div class="info-admin">
+                    <div class="info-admin-img">
+                        <img src="https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>tranvandoan2005</h3>
+                        <em>Quản trị viên</em>
+                    </div>
+                </div>
+                <div class="navbar-title">
+                    <ul>
+                        <li><a href=""><i class="far fa-star"></i> Tổng quát</a></li>
+                        <li><a href=""><i class="fas fa-calendar-alt"></i> Categoris Shopee</a></li>
+                        <li><a href=""><i class="fab fa-product-hunt"></i> Products</a></li>
+                        <li><a href=""><i class="fab fa-slideshare"></i> Slides</a></li>
+                        <li><a href=""><i class="far fa-user"></i> Users</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button id="off-navbar"><i class="fas fa-angle-double-left"></i></button>
+            <button id="on-navbar"><i class="fas fa-angle-double-right"></i></button>
+        </div>
+
+        <div class="admin-list">
+            <div class="admin-categoris">
+                <div class="admin-cate-header">
+                    <div class="left">
+                        <h3>Danh mục của shopee</h3>
+                    </div>
+                    <div class="right">
+                        <div class="search">
+                            <input type="text" placeholder="Tìm kiếm ...">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <button><a href=""> Thêm danh mục</a></button>
+                    </div>
+
+                </div>
+                <div class="admin-categoris_list">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Ảnh đại diện</th>
+                                <th>Tên</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png" alt=""></td>
+                                <td><span>thể thao đường phố</span></td>
+                                <td><i class="fas fa-tools"></i> <i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png" alt=""></td>
+                                <td><span>thể thao đường phố</span></td>
+                                <td><i class="fas fa-tools"></i> <i class="far fa-trash-alt"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- thêm danh mục --
+<div class="add-categoris">
+    <div class="add-categoris-header">
+        <h3>Thêm sản phẩm</h3>
+    </div>
+    <div class="add-product">
+        <div class="box-1">
+            <div class="add-name">
+                <span>Tên sản phẩm</span>
+                <input type="text" name="" placeholder="Tên sản phẩm" value="">
+            </div>
+            <div class="add-categori">
+                <span>Danh mục</span>
+                <select name="" id="">
+                                <option value="">Quần áo trẻ em</option>
+                                <option value="">Quần áo trẻ em</option>
+                                <option value="">Quần áo trẻ em</option>
+                            </select>
+            </div>
+            <div class="add-avatar">
+                <span>Ảnh đại diện</span>
+                <input type="file" name="" id="">
+            </div>
+            <div class="add-img1">
+                <span>Ảnh 1</span>
+                <input type="file" name="" id="">
+            </div>
+            <div class="add-img2">
+                <span>Ảnh 2</span>
+                <input type="file" name="" id="">
+            </div>
+            <div class="add-img3">
+                <span>Ảnh 3</span>
+                <input type="file" name="" id="">
+            </div>
+            <div class="add-img4">
+                <span>Ảnh 4</span>
+                <input type="file" name="" id="">
+            </div>
+            <div class="add-img5">
+                <span>Ảnh 5</span>
+                <input type="file" name="" id="">
+            </div>
+            <div class="add-sale">
+                <span>Giá sale</span>
+                <input type="text" placeholder="Giá sale" name="" id="">
+            </div>
+
+            <div class="add-brand">
+                <span>Thương hiệu</span>
+                <input type="text" name="" placeholder="Thương hiệu" id="">
+            </div>
+            <div class="add-origin">
+                <span>Xuất xứ</span>
+                <input type="text" placeholder="Xuất xứ" name="" id="">
+            </div>
+            <div class="add-warehouse">
+                <span>Kho hàng</span>
+                <input type="text" name="" placeholder="Kho hàng" id="">
+            </div>
+            <div class="add-sent_from">
+                <span>Gửi từ</span>
+                <input type="text" name="" placeholder="Gửi từ" id="">
+            </div>
+        </div>
+        <div class="box-2">
+            <div class="add-properties">
+                <div class="properties-name">
+                    <span>Tên thuộc tính</span>
+                    <button id="but">click</button>
+                    <!-- <button id="but1">click1</button> --
+                    <div class="hid">
+                        <input type="text" name="" id="name-properties">
+                        <button id="but2">click2</button>
+
+                    </div>
+                </div>
+                <div class="properties-input">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- sửa sp -->
+<!-- 
+            <div class="update-cate">
+                <div class="cate-box">
+                    <div class="update-categoris-header">
+                        <h3>Thêm danh mục</h3>
+                    </div>
+                    <div class="update-add">
+                        <div class="update-name">
+                            <span>Tên danh mục </span>
+                            <div class="update-name_input">
+                                <input type="text" placeholder="Thêm danh mục ...">
+                            </div>
+                        </div>
+                        <div class="update-photo">
+                            <span>Ảnh danh mục</span>
+                            <div class="update-photo_input"></div>
+                            <label for="update-photo">
+                            <i class="far fa-images"></i>
+                           
+                        </label>
+                            <span class="update-photo-list">
+                            <img src="" alt="">
+                        </span>
+                            <input type="file" name="" id="update-photo">
+                        </div>
+                        <button>Thêm </button>
+                        <button> <a href="">Quay lại</a></button>
+                    </div>
+                </div>
+
+            </div> -->
+
+<!-- phân trang -->
+<!-- <div class="paging-products">
+                <div class="paging-prev"><i class="fas fa-angle-left"></i></div>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                </ul>
+                <div class="paging-next"><i class="fas fa-angle-right"></i></div>
+            </div> --
+</div>
+
+</div>
+<script>
+    const but = document.querySelector("#but")
+    const but1 = document.querySelector("#but1")
+    const but2 = document.querySelector("#but2")
+    const properties2 = document.querySelector("#name-properties")
+    const hi = document.querySelector(".properties-input")
+    console.log(properties2)
+    const p = []
+    var dem = 0
+
+    function h() {
+        but.addEventListener("click", function() {
+            const item = document.querySelector(".hid");
+            const clone = item.cloneNode(true);
+            var buttonxoa = document.getElementById("but2");
+            buttonxoa.innerHTML = "Xóa";
+            buttonxoa.setAttribute("onclick", "xoa(this)");
+            hi.appendChild(clone);
+            tinhTong()
+
+        })
+    }
+    h()
+
+    function xoa(button) {
+        // var row = button.parentElement.parentElement;
+        // console.log(button)
+        // document.querySelector(".properties-input").remove(row);
+        // tinhTong();
+    }
+
+    function tinhTong() {
+        var rows = document.querySelector(".hid");
+        console.log(rows)
+        for (var i = 0; i < rows.length; i++) {
+            var bien = rows[i].getElementsByTagName("input");
+            // var tin = bien[1].innerHTML.substr(1);
+            console.log(bien)
+                // tong += 1 * tin;
+        }
+
+
+    }
+    tinhTong()
+    const off_navbar = document.querySelector("#off-navbar")
+    const on_navbar = document.querySelector("#on-navbar")
+    const admin_navbar = document.querySelector(".admin-navbar")
+    const admin_list = document.querySelector(".admin-list")
+    const navbar = document.querySelector(".navbar")
+    off_navbar.addEventListener("click", function() {
+        admin_navbar.style.width = "3%"
+        admin_list.style.width = "97%"
+        navbar.style.display = "none"
+        on_navbar.style.display = "block"
+        off_navbar.style.display = "none"
+
+    })
+    on_navbar.addEventListener("click", function() {
+        admin_navbar.style.width = "20%"
+        admin_list.style.width = "80%"
+        navbar.style.display = "block"
+        on_navbar.style.display = "none"
+        off_navbar.style.display = "block"
+
+    })
+    const searchIcon = document.querySelector(".search>i")
+    const searchInput = document.querySelector(".search>input")
+    var item = 0
+    searchIcon.addEventListener("click", function() {
+        item++
+        if (item === 1) {
+
+            searchInput.classList.add("active-input")
+        } else if (item === 2) {
+            item = 0
+            searchInput.classList.remove("active-input")
+
+        }
+    })
+</script>
+</body>
+
+</html> -->

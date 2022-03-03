@@ -684,3 +684,62 @@ form>button,
     width: 200px;
     height: auto;
 }
+
+
+/* quản lý comment */
+
+.comment-main>h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    font-weight: 500;
+}
+
+.comment-main>h3>i {
+    font-size: 1.7rem;
+    margin-right: 10px;
+    color: coral;
+}
+
+.comment-main>table {
+    border: 1px solid rgb(231, 231, 231);
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-top: 20px;
+}
+
+.comment-main>table tr,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+}
+
+.comment-main>table tr>td>i {
+    cursor: pointer;
+}
+
+.list-detail-comment>table {
+    border: 1px solid rgb(231, 231, 231);
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-top: 20px;
+}
+
+.list-detail-comment>table tr,
+.list-detail-comment>table tr>th,
+.list-detail-comment>table tr>td {
+    border-collapse: collapse;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+}
+
+.list-detail-comment>table tr>td>i {
+    cursor: pointer;
+}

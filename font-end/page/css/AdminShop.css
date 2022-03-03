@@ -254,7 +254,7 @@
 .store-statistical-price>.column>ul {
     width: 100px;
     border-right: 1px solid rgb(113, 109, 109);
-    height: 450px;
+    height: 150px;
     color: rgb(238, 77, 45);
     align-items: center;
     position: relative;
@@ -323,19 +323,19 @@
 }
 
 .row>ul>li:nth-child(1) {
-    left: 100px;
+    left: 0px;
 }
 
 .row>ul>li:nth-child(2) {
-    left: 230px;
+    left: 130px;
 }
 
 .row>ul>li:nth-child(3) {
-    left: 360px;
+    left: 290px;
 }
 
 .row>ul>li:nth-child(4) {
-    left: 490px;
+    left: 450px;
 }
 
 .row>ul>li:nth-child(5) {
@@ -343,11 +343,71 @@
 }
 
 .row>ul>li:nth-child(6) {
-    left: 740px;
+    left: 770px;
 }
 
 .row>ul>li:nth-child(7) {
-    left: 870px;
+    left: 930px;
+}
+
+.row>ul>li:nth-child(2)::before {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    height: 10px;
+    content: " ";
+    width: 1px;
+    background-color: black;
+}
+
+.row>ul>li:nth-child(3)::before {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    height: 10px;
+    content: " ";
+    width: 1px;
+    background-color: black;
+}
+
+.row>ul>li:nth-child(4)::before {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    height: 10px;
+    content: " ";
+    width: 1px;
+    background-color: black;
+}
+
+.row>ul>li:nth-child(5)::before {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    height: 10px;
+    content: " ";
+    width: 1px;
+    background-color: black;
+}
+
+.row>ul>li:nth-child(6)::before {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    height: 10px;
+    content: " ";
+    width: 1px;
+    background-color: black;
+}
+
+.row>ul>li:nth-child(7)::before {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    height: 10px;
+    content: " ";
+    width: 1px;
+    background-color: black;
 }
 
 .row>ul>li>span::before {
@@ -392,7 +452,8 @@
     animation: sp1 ease-in 1s;
 }
 
-.sp2:before {
+
+/* .sp2:before {
     height: 400px;
     width: 50px;
     animation: sp2 ease-in 1s;
@@ -426,11 +487,12 @@
     height: 200px;
     width: 50px;
     animation: sp7 ease-in 1s;
-}
+} */
 
-.row>ul>li>span>p {
+
+/* .row>ul>li>span>p {
     display: none;
-}
+} */
 
 .order-detail {
     padding: 10px;
